@@ -37,7 +37,7 @@ export default function Home() {
               url: "https://example.com",
             }}
           />
-          {address && (
+          {/* {address && (
             <button style={{
               marginTop: '20px',
               padding: '10px 20px',
@@ -51,7 +51,7 @@ export default function Home() {
             onClick={onClick}>
               Claim NFT
             </button>
-          )}
+          )} */}
         </div>
 
         {/* <ThirdwebResources /> */}

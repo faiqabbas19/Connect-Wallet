@@ -32,7 +32,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                 headers: {
                     "Content-Type": "application/json",
                     Authorization: `Bearer ${THIRDWEB_SECRET_KEY}`,
-                    "x-backend-wallet-address": BACKEND_WALLET_ADDRESS, // Corrected header name
+                    "x-backend-wallet-address": BACKEND_WALLET_ADDRESS, 
                 },
                 body: JSON.stringify({
                     receiver: useActiveAccount,
